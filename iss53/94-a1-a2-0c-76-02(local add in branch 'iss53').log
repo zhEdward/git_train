@@ -1,0 +1,29 @@
+TIME=1436253884000
+FINGERPRINT=rockchip/mid638/mid638:4.4.4/KTU84Q/eng.imt.20150729.102146:user/test-keys
+HARDWARE=rk30board
+UNKNOWN=unknown
+RADIO=unknown
+BOARD=rk30sdk
+versionCode=2
+PRODUCT=FX08
+versionName=5.3
+USE_LCDC_COMPOSER=false
+DISPLAY=KTU84Q test-keys
+USER=imt
+HOST=imt-u
+DEVICE=FX08
+TAGS=test-keys
+MODEL=FX08
+BOOTLOADER=unknown
+CPU_ABI=armeabi-v7a
+CPU_ABI2=armeabi
+IS_DEBUGGABLE=false
+ID=KTU84Q
+SERIAL=unknown
+MANUFACTURER=rockchip
+BRAND=rockchip
+TYPE=user
+java.lang.IndexOutOfBoundsException: Invalid index 0, size is 0
+	at java.util.ArrayList.throwIndexOutOfBoundsException(ArrayList.java:255)
+	at java.util.ArrayList.get(ArrayList.java:308)
+	at xx.fjnuit.communicate.Connection$Thread_lanya.run(Connection.java:1952)
