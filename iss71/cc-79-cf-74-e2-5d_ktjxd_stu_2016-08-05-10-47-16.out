@@ -1,0 +1,44 @@
+VERSION_NAME=1.1
+VERSION_CODE=11
+STORAGE_PATH=/storage/emulated/0/ktjxd_stu/
+APP_NAME=贝�?�克-课堂学习_爵士�?
+DEVICE_MAC=cc:79:cf:74:e2:5d
+DEVICE_IP=192.168.41.3
+APP_ENV=Production
+===========================
+BOARD=rk30sdk
+BOOTLOADER=unknown
+BRAND=Android
+CPU_ABI=armeabi-v7a
+CPU_ABI2=armeabi
+DEVICE=rk3368_box
+DISPLAY=rk3368_box-userdebug 5.1.1 LMY48G eng.xiaoweihua.20160603.155249 test-keys
+FINGERPRINT=Android/rk3368_box/rk3368_box:5.1.1/LMY48G/xiaoweihua06031602:userdebug/test-keys
+HARDWARE=rk30board
+HOST=Zidoobeta
+ID=LMY48G
+IS_DEBUGGABLE=true
+MANUFACTURER=rockchip
+MODEL=KAIBOER_4K_ZEUS
+PRODUCT=rk3368_box
+RADIO=unknown
+SERIAL=QL96D0KHTE
+SUPPORTED_32_BIT_ABIS=[Ljava.lang.String;@9c576bf
+SUPPORTED_64_BIT_ABIS=[Ljava.lang.String;@29fbf18c
+SUPPORTED_ABIS=[Ljava.lang.String;@226b0d5
+TAG=Build
+TAGS=test-keys
+TIME=1464941114000
+TYPE=userdebug
+UNKNOWN=unknown
+USER=xiaoweihua
+java.lang.NullPointerException: Attempt to invoke virtual method 'android.graphics.Rect android.graphics.drawable.Drawable.getBounds()' on a null object reference
+	at fxyy.lx.ktjxstu.themesplay.TPlayActivity$6.run(Edward:383)
+	at android.os.Handler.handleCallback(Handler.java:739)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:135)
+	at android.app.ActivityThread.main(ActivityThread.java:5258)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:940)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:735)

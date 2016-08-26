@@ -1,0 +1,201 @@
+VERSION_NAME=1.1
+VERSION_CODE=11
+STORAGE_PATH=/storage/emulated/0/ktjxd_stu/
+APP_NAME=贝�?�克-课堂学习_爵士�?
+DEVICE_MAC=cc:79:cf:74:e2:5d
+DEVICE_IP=192.168.41.3
+APP_ENV=Production
+===========================
+BOARD=rk30sdk
+BOOTLOADER=unknown
+BRAND=Android
+CPU_ABI=armeabi-v7a
+CPU_ABI2=armeabi
+DEVICE=rk3368_box
+DISPLAY=rk3368_box-userdebug 5.1.1 LMY48G eng.xiaoweihua.20160603.155249 test-keys
+FINGERPRINT=Android/rk3368_box/rk3368_box:5.1.1/LMY48G/xiaoweihua06031602:userdebug/test-keys
+HARDWARE=rk30board
+HOST=Zidoobeta
+ID=LMY48G
+IS_DEBUGGABLE=true
+MANUFACTURER=rockchip
+MODEL=KAIBOER_4K_ZEUS
+PRODUCT=rk3368_box
+RADIO=unknown
+SERIAL=QL96D0KHTE
+SUPPORTED_32_BIT_ABIS=[Ljava.lang.String;@175087a4
+SUPPORTED_64_BIT_ABIS=[Ljava.lang.String;@375e90d
+SUPPORTED_ABIS=[Ljava.lang.String;@334460c2
+TAG=Build
+TAGS=test-keys
+TIME=1464941114000
+TYPE=userdebug
+UNKNOWN=unknown
+USER=xiaoweihua
+java.lang.RuntimeException: Unable to start activity ComponentInfo{fxyy.lx.drumktjxstu/fxyy.linx.checkpoint.CheckpointStuActivity}: android.view.InflateException: Binary XML file line #152: Error inflating class <unknown>
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2325)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2387)
+	at android.app.ActivityThread.access$800(ActivityThread.java:151)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1303)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:135)
+	at android.app.ActivityThread.main(ActivityThread.java:5258)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:940)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:735)
+Caused by: android.view.InflateException: Binary XML file line #152: Error inflating class <unknown>
+	at android.view.LayoutInflater.createView(LayoutInflater.java:633)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:743)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:806)
+	at android.view.LayoutInflater.parseInclude(LayoutInflater.java:916)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:802)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:809)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:809)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:809)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:809)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:504)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:414)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:365)
+	at com.android.internal.policy.impl.PhoneWindow.setContentView(PhoneWindow.java:378)
+	at android.app.Activity.setContentView(Activity.java:2168)
+	at fxyy.linx.checkpoint.CheckpointStuActivity.onCreate(Edward:168)
+	at android.app.Activity.performCreate(Activity.java:6037)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1106)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2278)
+	... 10 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.lang.reflect.Constructor.newInstance(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:288)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:607)
+	... 27 more
+Caused by: java.lang.OutOfMemoryError: Failed to allocate a 7741452 byte allocation with 4926572 free bytes and 4MB until OOM
+	at dalvik.system.VMRuntime.newNonMovableArray(Native Method)
+	at android.graphics.Bitmap.nativeCreate(Native Method)
+	at android.graphics.Bitmap.createBitmap(Bitmap.java:812)
+	at android.graphics.Bitmap.createBitmap(Bitmap.java:789)
+	at android.graphics.Bitmap.createBitmap(Bitmap.java:756)
+	at com.example.movefivenote.view.NoteView.initView(Edward:149)
+	at com.example.movefivenote.view.NoteView.<init>(Edward:122)
+	... 30 more
+android.view.InflateException: Binary XML file line #152: Error inflating class <unknown>
+	at android.view.LayoutInflater.createView(LayoutInflater.java:633)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:743)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:806)
+	at android.view.LayoutInflater.parseInclude(LayoutInflater.java:916)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:802)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:809)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:809)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:809)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:809)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:504)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:414)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:365)
+	at com.android.internal.policy.impl.PhoneWindow.setContentView(PhoneWindow.java:378)
+	at android.app.Activity.setContentView(Activity.java:2168)
+	at fxyy.linx.checkpoint.CheckpointStuActivity.onCreate(Edward:168)
+	at android.app.Activity.performCreate(Activity.java:6037)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1106)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2278)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2387)
+	at android.app.ActivityThread.access$800(ActivityThread.java:151)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1303)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:135)
+	at android.app.ActivityThread.main(ActivityThread.java:5258)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:940)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:735)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.lang.reflect.Constructor.newInstance(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:288)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:607)
+	... 27 more
+Caused by: java.lang.OutOfMemoryError: Failed to allocate a 7741452 byte allocation with 4926572 free bytes and 4MB until OOM
+	at dalvik.system.VMRuntime.newNonMovableArray(Native Method)
+	at android.graphics.Bitmap.nativeCreate(Native Method)
+	at android.graphics.Bitmap.createBitmap(Bitmap.java:812)
+	at android.graphics.Bitmap.createBitmap(Bitmap.java:789)
+	at android.graphics.Bitmap.createBitmap(Bitmap.java:756)
+	at com.example.movefivenote.view.NoteView.initView(Edward:149)
+	at com.example.movefivenote.view.NoteView.<init>(Edward:122)
+	... 30 more
+java.lang.reflect.InvocationTargetException
+	at java.lang.reflect.Constructor.newInstance(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:288)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:607)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:743)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:806)
+	at android.view.LayoutInflater.parseInclude(LayoutInflater.java:916)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:802)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:809)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:809)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:809)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:809)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:504)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:414)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:365)
+	at com.android.internal.policy.impl.PhoneWindow.setContentView(PhoneWindow.java:378)
+	at android.app.Activity.setContentView(Activity.java:2168)
+	at fxyy.linx.checkpoint.CheckpointStuActivity.onCreate(Edward:168)
+	at android.app.Activity.performCreate(Activity.java:6037)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1106)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2278)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2387)
+	at android.app.ActivityThread.access$800(ActivityThread.java:151)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1303)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:135)
+	at android.app.ActivityThread.main(ActivityThread.java:5258)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:940)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:735)
+Caused by: java.lang.OutOfMemoryError: Failed to allocate a 7741452 byte allocation with 4926572 free bytes and 4MB until OOM
+	at dalvik.system.VMRuntime.newNonMovableArray(Native Method)
+	at android.graphics.Bitmap.nativeCreate(Native Method)
+	at android.graphics.Bitmap.createBitmap(Bitmap.java:812)
+	at android.graphics.Bitmap.createBitmap(Bitmap.java:789)
+	at android.graphics.Bitmap.createBitmap(Bitmap.java:756)
+	at com.example.movefivenote.view.NoteView.initView(Edward:149)
+	at com.example.movefivenote.view.NoteView.<init>(Edward:122)
+	... 30 more
+java.lang.OutOfMemoryError: Failed to allocate a 7741452 byte allocation with 4926572 free bytes and 4MB until OOM
+	at dalvik.system.VMRuntime.newNonMovableArray(Native Method)
+	at android.graphics.Bitmap.nativeCreate(Native Method)
+	at android.graphics.Bitmap.createBitmap(Bitmap.java:812)
+	at android.graphics.Bitmap.createBitmap(Bitmap.java:789)
+	at android.graphics.Bitmap.createBitmap(Bitmap.java:756)
+	at com.example.movefivenote.view.NoteView.initView(Edward:149)
+	at com.example.movefivenote.view.NoteView.<init>(Edward:122)
+	at java.lang.reflect.Constructor.newInstance(Native Method)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:288)
+	at android.view.LayoutInflater.createView(LayoutInflater.java:607)
+	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:743)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:806)
+	at android.view.LayoutInflater.parseInclude(LayoutInflater.java:916)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:802)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:809)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:809)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:809)
+	at android.view.LayoutInflater.rInflate(LayoutInflater.java:809)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:504)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:414)
+	at android.view.LayoutInflater.inflate(LayoutInflater.java:365)
+	at com.android.internal.policy.impl.PhoneWindow.setContentView(PhoneWindow.java:378)
+	at android.app.Activity.setContentView(Activity.java:2168)
+	at fxyy.linx.checkpoint.CheckpointStuActivity.onCreate(Edward:168)
+	at android.app.Activity.performCreate(Activity.java:6037)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1106)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2278)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2387)
+	at android.app.ActivityThread.access$800(ActivityThread.java:151)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1303)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:135)
+	at android.app.ActivityThread.main(ActivityThread.java:5258)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:940)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:735)
