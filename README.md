@@ -9,4 +9,5 @@ my git traing
  -  modify from local iss53 branch
  - 2016年8月27日 12:40:05 copy png again
  - modify 2016年8月27日 12:43:25
- -modify this 2016年8月27日 15:16:49 in bitbucket
+ - modify this 2016年8月27日 15:16:49 in bitbucket
+ - modify thi 2016年8月27日 17:06:18 in local computer
