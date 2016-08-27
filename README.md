@@ -11,3 +11,4 @@ my git traing
  - modify 2016年8月27日 12:43:25
  - modify this 2016年8月27日 15:16:49 in bitbucket
  - modify thi 2016年8月27日 17:06:18 in local computer
+ - new update in bitbucket @2016年8月27日 17:13:34
