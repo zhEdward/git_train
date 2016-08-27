@@ -23,7 +23,7 @@ SERIAL=unknown
 MANUFACTURER=rockchip
 BRAND=rockchip
 TYPE=user
-java.lang.IndexOutOfBoundsException: Invalid index 0, size is 0
+java.lang.IndexOutOfBoundsException: Invalid index iss53, size is blabla
 	at java.util.ArrayList.throwIndexOutOfBoundsException(ArrayList.java:255)
 	at java.util.ArrayList.get(ArrayList.java:308)
 	at xx.fjnuit.communicate.Connection$Thread_lanya.run(Connection.java:1952)
