@@ -7,3 +7,4 @@ my git traing
  -  在master分支上 修改这个md文件 在推送到 remote 仓库****
  -  2016年8月26日 14:31:14 add plain text from github homepage
  -  modify from local iss53 branch
+ - 2016年8月27日 12:40:05 copy png again
