@@ -1,23 +1,4 @@
-android.support.annotation.Keep -> android.support.annotation.Keep:
-android.support.v4.util.LruCache -> android.support.a.a.a:
-    java.util.LinkedHashMap map -> a
-    int size -> b
-    int maxSize -> c
-    int putCount -> d
-    int createCount -> e
-    int evictionCount -> f
-    int hitCount -> g
-    int missCount -> h
-    java.lang.Object get(java.lang.Object) -> a
-    java.lang.Object put(java.lang.Object,java.lang.Object) -> a
-    void trimToSize(int) -> a
-    java.lang.Object remove(java.lang.Object) -> b
-    void entryRemoved(boolean,java.lang.Object,java.lang.Object,java.lang.Object) -> a
-    java.lang.Object create(java.lang.Object) -> c
-    int safeSizeOf(java.lang.Object,java.lang.Object) -> c
-    int sizeOf(java.lang.Object,java.lang.Object) -> b
-    void evictAll() -> a
-    java.lang.String toString() -> toString
+
 com.activeandroid.ActiveAndroid -> com.activeandroid.ActiveAndroid:
     void initialize(android.content.Context) -> initialize
     void initialize(com.activeandroid.Configuration) -> initialize

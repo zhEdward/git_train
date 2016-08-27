@@ -8,3 +8,4 @@ my git traing
  -  2016年8月26日 14:31:14 add plain text from github homepage
  -  modify from local iss53 branch
  - 2016年8月27日 12:40:05 copy png again
+ - modify 2016年8月27日 12:43:25
