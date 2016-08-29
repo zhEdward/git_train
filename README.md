@@ -1,4 +1,4 @@
-﻿# git_train
+# git_train
 my git traing
 
 
@@ -14,3 +14,4 @@ my git traing
  - modify thi 2016年8月27日 17:06:18 in local computer
 
  - new update in bitbucket @2016年8月27日 17:13:34
+ - HAHA rename two pictures and modify README.md
