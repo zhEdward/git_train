@@ -15,3 +15,4 @@ my git traing
 
  - new update in bitbucket @2016年8月27日 17:13:34
  - HAHA rename two pictures and modify README.md
+ - test git branch -vv when github homepage change something and my pc will be different from remote respository
